@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <nav><span id="stopwatch"><i class="bi bi-clock-fill" id="clock"></i>&nbsp;&nbsp;Stopwatch</span> <span
+            class="nav-element" id="first-nav">Home</span><span class="nav-element">Timer</span>
+        <span class="nav-element">Clock</span><span class="nav-element">Calender</span>
+    </nav>
+    <div id="instructions-link">
+        <a href="#instructions" id="a-link">Click here for instructions</a>
+    </div>
+    <br> <br> <br>
+    <div id="timer-container">
+        <div class="timer" id="timer1">
+            <div id="days" class="display-box">00</div><br>
+            <label for="" id="label-days">Days</label>
+        </div>
+        <div class="timer" id="timer2">
+            <div id="hours" class="display-box">00</div><br>
+            <label for="" id="label-hours">Hours</label>
+        </div>
+        <div class="timer" id="timer3">
+            <div id="minutes" class="display-box">00</div><br>
+            <label for="" id="label-minutes">Minutes</label>
+        </div>
+        <div class="timer" id="timer4">
+            <div id="seconds" class="display-box">00</div><br>
+            <label for="" id="label-seconds">Seconds</label>
+        </div>
+
+        <div id="user-inputs">
+            <input type="text" class="inputs" id="days-ip" >
+            <input type="text" name="" id="hours-ip" class="inputs" >
+            <input type="text" class="inputs" id="minutes-ip" > 
+            <input type="text" class="inputs" id="seconds-ip">
+        </div>
+        <div id="buttons">
+            <button align="center" id="set-timer">Set timer</button>
+            <button align="center" id="start-resume">Start/Resume</button>
+            <button align="center" id="pause">Pause</button>
+            <button align="center" id="reset">Reset</button>
+        </div>
+    </div>
+    <div id="instructions">
+        <label for="" id="inst-label">Instructions</label><br><br>
+        <label for="" class="statements"></label>1. &nbsp;&nbsp;&nbsp;Enter the values in the inputs.<br>
+        <label for="" class="statements"></label>2. &nbsp;&nbsp;Press the SetTimer Button to set the timer.<br>
+        <label for="" class="statements"></label>3. &nbsp;&nbsp;Press the Start/Resume Button to start the timer.<br>
+        <label for="" class="statements"></label>4. &nbsp;&nbsp;Pause the Timer if you want to pause.<br>
+        <label for="" class="statements"></label>5. &nbsp;&nbsp;Press Start/Resume Button to resume the timer.<br>
+        <label for="" class="statements"></label>6. &nbsp;&nbsp;Press the Reset Button to reset the values.<br>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>

@@ -1,0 +1,200 @@
+body {
+    background: skyblue;
+}
+
+nav {
+    background-color: rgb(17, 17, 60);
+    color: white;
+}
+
+.nav-element {
+    display: inline-block;
+}
+
+#first-nav {
+    margin-left: 55rem;
+}
+
+.nav-element {
+    margin-left: 3rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#stopwatch {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 24px;
+}
+
+#clock {
+    font-size: 24px;
+    padding: 15px;
+    padding-right: 0px;
+}
+
+#instructions-link {
+    background: rgb(17, 17, 60);
+    margin: 2rem;
+    width: 12rem;
+}
+
+#a-link {
+    color: white;
+}
+
+.timer {
+    display: inline-block;
+    margin-left: 10rem;
+    height: 10rem;
+    background-color: rgb(17, 17, 60);
+    width: 10.5rem;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.display-box {
+    position: relative;
+    font-size: 88px;
+    margin-left: 1rem;
+    font-weight: bold;
+    width: 8rem;
+    background-color: rgb(17, 17, 60);
+    color: white;
+    border: none;
+}
+
+#label-days {
+    font-size: 25px;
+    position: relative;
+    margin-left: 2.5rem;
+    font-weight: bold;
+    color: rgb(17, 17, 60);
+
+}
+
+#label-hours {
+    font-size: 25px;
+    position: relative;
+    margin-left: 2.5rem;
+    font-weight: bold;
+    color: rgb(17, 17, 60);
+
+}
+
+#label-minutes {
+    font-size: 25px;
+    position: relative;
+    margin-left: 2rem;
+    font-weight: bold;
+    color: rgb(17, 17, 60);
+}
+
+#label-seconds {
+    font-size: 25px;
+    position: relative;
+    margin-left: 1.7rem;
+    font-weight: bold;
+    color: rgb(17, 17, 60);
+}
+
+#days-ip {
+    margin: 5rem;
+    margin-left: 13.5rem;
+    width: 3rem;
+    border: none;
+    border-radius: 3px;
+}
+
+#hours-ip {
+    margin: 5rem;
+    margin-left: 12.7rem;
+    width: 3rem;
+    border: none;
+    border-radius: 3px;
+}
+
+#minutes-ip {
+    margin: 5rem;
+    margin-left: 12.7rem;
+    width: 3rem;
+    border: none;
+    border-radius: 3px;
+}
+
+#seconds-ip {
+    margin: 5rem;
+    margin-left: 12.7rem;
+    width: 3rem;
+    border: none;
+    border-radius: 3px;
+}
+
+#buttons {
+    display: block;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#set-timer {
+    margin-left: 35rem;
+    background-color: black;
+    color: white;
+}
+
+#set-timer:hover {
+    background: rgb(96, 89, 89);
+}
+
+#start-resume {
+    background-color: rgb(207, 27, 231);
+    color: white;
+}
+
+#start-resume:hover {
+    background-color: rgb(192, 103, 227);
+}
+
+#pause {
+    background-color: rgb(18, 91, 226);
+    color: white;
+}
+
+#pause:hover {
+    background-color: rgb(99, 99, 229);
+}
+
+#reset {
+    background-color: red;
+    color: white;
+}
+
+#reset:hover {
+    background-color: rgb(231, 106, 106);
+}
+
+#instructions {
+    display: block;
+    padding: 2rem;
+    margin-top: 10rem;
+    background-color: rgb(17, 17, 60);
+    color: white;
+
+
+}
+
+#inst-label {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+
+.statements {
+    margin-left: 5rem;
+}
